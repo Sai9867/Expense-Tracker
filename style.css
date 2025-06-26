@@ -14,8 +14,8 @@ body{
 }
 
 .solid-circle {
-  width: 1200px;
-  height: 1200px;
+  width: 750px;
+  height: 750px;
   background-color: #476ef4; /* soft red */
   border-radius: 50%;
   top: -120px;
