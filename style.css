@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+body{
+  font-family: "Comfortaa", sans-serif;
+}
+.parent{
+  border: 1px solid black;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.solid-circle {
+  width: 1200px;
+  height: 1200px;
+  background-color: #476ef4; /* soft red */
+  border-radius: 50%;
+  top: -120px;
+  right: -375px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.header-home{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  position: absolute;
+  z-index: 2;
+  margin-top: 20px;
+
+  
+}
+.header-home h6{
+  font-size: 30px;
+  font-weight: 800;
+  padding-right: 30%;
+  
+}
+
+.header-btn{
+  font-size: 30px;
+  font-weight: 500;
+  background-color: white;
+  color: #476ef4;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0,0.50);
+
+}
+.header-btn:hover{
+  background-color: rgb(170, 180, 188);
+}
+
+.contain{
+  margin-top: 10%;
+  margin-left: 12.5%;
+}
+
+.contain h5{
+  font-size: 60px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.contain h1{
+  font-size: 150px;
+  color: #476ef4;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.input-text{
+  width: 600px;
+  height: 60px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0,0.50);
+  margin-bottom: 20px;
+  /* border: none; */
+  border-color: white;
+  border-radius: 10px;
+  /* outline: none; */
+  outline-color: rgb(75, 142, 201);
+
+}
+
+.contain-btn{
+  background-color: #476ef4;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 0px 30px;
+ 
+}
+
+.contain-btn:hover{
+  background-color: #295afb;
+}
+
+@media only screen and ( max-width:768px) {
+  .solid-circle{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    right: -150px;
+    top: -100px;
+    
+  }
+
+  .header-btn{
+    margin-right: -20px;
+    color: black;
+    padding: 2px 5px;
+    font-size: 20px;
+  }
+  .header-home{
+    display: flex;
+  }
+  .header-home h6{
+    font-size: 20px;
+    padding: 0;
+
+  }
+  
+  .contain{
+    margin-top: 65%;
+  }
+  .contain h5{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .contain h1{
+    font-size: 65px;
+    color: black;
+  }
+
+  .input-text{
+
+    max-width: 320px;
+    height: 40px;
+
+  }
+
+  .contain-btn{
+    background-color: black;
+    font-size: 25px;
+  }
+    
+}
